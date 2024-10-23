@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the project2</title>
-    <link rel="icon" type="image/jpg" href="kaneki.png">
+    <title>the project3</title>
+    <link rel="icon" type="image/icon" href="favicon.ico">
     <style>
   
 
@@ -16,12 +16,14 @@
 
 
 
-  div.img1 {
+  span.img1 {
     
     display: flex;
-    width: 600px;
-    height: 500px;
-    max-width: 600px;
+    width: 580px;
+    height: 580px;
+    
+   
+    
   }
 
 
@@ -41,7 +43,7 @@ body{
     
 @media (max-width:600px)
 {
-div.img1{
+span.img1{
 max-width: 300px;
 max-height: 250px;
 
@@ -58,21 +60,23 @@ body{
 
 <style>
 
-div.scrollmenu {
+span.scrollmenu {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
+  padding: 14px;
 }
 
-div.scrollmenu a {
+span.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  margin: 0% 8% 0% 8%;
 }
 
-div.scrollmenu a:hover {
+span.scrollmenu a:hover {
   background-color: #777;
 }
 
@@ -84,13 +88,13 @@ div.scrollmenu a:hover {
 </head>
 <body>
   
-  <div class="scrollmenu">
+  <span class="scrollmenu">
     <a href="#home">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
-    ...
-  </div>
+    
+  </span>
   
     
     <h1 style="text-align: center;">wellcom to my first website!</h1>
@@ -98,14 +102,16 @@ div.scrollmenu a:hover {
 <div class="p1">
     <p>find the hidden <i>Link</i> to open w3schools!</p>
 </div>
-    <div class="img1">
- <img src="kaneki2.jpg" usemap="#test"> 
- <img src="kaneki3.jpeg">
-<map name="test">
-    
-    <area shape="circle" coords="326,204,44" alt="face" href="https://www.w3schools.com" target="_blank">
-</map>
-</div>
+    <span class="img1">
+      <img src="/kaneki2.jpg" usemap="#test"> 
+      <img src="/kaneki3.jpeg">
+     <map name="test">
+         
+         <area shape="circle" coords="326,204,44" alt="face" href="https://www.w3schools.com" target="_blank">
+     </map>
+ 
+
+  </span>
 
 
 
@@ -135,6 +141,12 @@ div.scrollmenu a:hover {
        onclick="document.getElementById('demo').innerHTML = Date()">
        Click me to display Date and Time.</button>
        <p id="demo"></p>
+
+       <audio controls> 
+       
+       <source src="Outro _Tear.mp3">
+
+       </audio>
 
 <h3>here you can see a window of my copy website! click on the link to open it.</h3>
  </br>
