@@ -1,13 +1,19 @@
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the project15</title>
-    <link rel="icon" type="image/icon" href="Images/favicon.ico">
+    <title>the project2</title>
+    <link rel="icon" type="image/icon" href="favicon.ico">
    
-       
    <style>
-  button{
+  
+
+.p1 {
+    font-size:x-large;
+
+}
+
+button{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:larger ;
 background-color: black;
@@ -19,28 +25,26 @@ color: darkgoldenrod;
 }
 
 
-.p1 {
-    font-size:x-large;
 
+
+
+
+#img1 {
+  
+  height: 560px;
+  width: 561px;
+  float: left;
+  margin-bottom: 20px;
+  
 }
 
+#img2 {
+width: 520px;
+height: 560px;
+margin-bottom: 20px;
 
 
-
-
-
-
-  span.img1 {
-    
-    display: flex;
-    width: 580px;
-    height: 580px;
-    max-width:540px;
-   
-    
-  }
-
-
+}
 
     </style>
     
@@ -50,16 +54,31 @@ color: darkgoldenrod;
     
 body{
     background-color: #51f9ff;
-    width: 100%;
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5vw;
+    margin: 0%;
     }
     
-@media (max-width:600px)
+main{
+margin-left: 10px;
+
+
+
+}
+
+#heading1{
+
+margin-left: 10px;
+
+}
+
+
+@media (max-width:500px)
 {
 span.img1{
-max-width: 230px;
-max-height: 230px;
+max-width: 220px;
+max-height: 220px;
 }
  .p1 {
  font-size: large;
@@ -68,28 +87,31 @@ body{
 
     font-size: 3vw;
 }
+span.scrollmenu {
+ 
+ 
+ margin: 1%;
+  padding: 1px;
+}
 
-    
 span.scrollmenu a {
-
-max-width:0.2px;
-
+ 
+  
+  
+  padding: 1px;
+ 
+  margin: 1%;
 }
 
 }
-@media (orientation:landscape) and (max-width: 900px)
+@media (orientation:landscape) and (max-width: 800px)
 {
   span.img1{
-max-width: 430px;
-max-height: 430px;
+max-width: 420px;
+max-height: 420px;
 }
-span.scrollmenu a {
-    
-    margin:0% 5%
 
 
-
-}
 }
 
 
@@ -100,9 +122,10 @@ span.scrollmenu a {
 
 span.scrollmenu {
   background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
+  margin: 0px;
   padding: 14px;
+
+ 
 }
 
 span.scrollmenu a {
@@ -111,7 +134,8 @@ span.scrollmenu a {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  margin:0% 8%
+  margin:0px 90px
+  
 }
 
 span.scrollmenu a:hover {
@@ -138,22 +162,23 @@ span.scrollmenu a:hover {
     <h1 style="text-align: center;"><span>wellcom to my first website!</span></h1>
 
 <div class="p1">
-    <p>find the hidden <i>Link</i> to open w3schools!</p>
+    <p id="heading1">find the hidden <i>Link</i> to open w3schools!</p>
 </div>
-    <span class="img1">
-      <img src="kaneki2.jpg" usemap="#test"> 
-      <img src="kaneki3.jpeg">
-     <map name="test">
+   
+      <img id="img1" src="kaneki2.jpg" usemap="#test"> 
+      <img id="img2" src="kaneki3.jpeg">
+   
+      <map name="test">
          
-         <area shape="circle" coords="326,204,200" alt="face" href="https://www.w3schools.com" target="_blank">
-     </map>
- 
-
-  </span>
+        <area shape="circle" coords="326,204,200" alt="face" href="https://www.w3schools.com" target="_blank">
+    </map>
 
 
+  
 
+<main>
 
+<div>
        <h2>An unordered HTML list</h2>
 
       
@@ -164,7 +189,7 @@ span.scrollmenu a:hover {
        </ul>  
       </br>
       
-        
+    </div>
        <h2>A Description List</h2>
 
        <dl>
@@ -237,7 +262,8 @@ span.scrollmenu a:hover {
        <h2>Chapter 12</h2>
        <p>This chapter explains ba bla bla</p>
        
-<a href="form 2.html" onclick>
+
+       <a href="form 2.html" onclick>
        <button onclick="button_1()">
        Signup Here
      </button>
@@ -251,6 +277,11 @@ function button_1(){
 
 
   }
+
+
+
+</script>
+</main>
 
 </body>
 </html>
