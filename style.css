@@ -107,17 +107,17 @@ float: left;
 
 #img1{
 max-width: 100%;
-max-height: 250px;
-clear: both;
+max-height: 450px;
+float: none !important;
 }
 #img2{
 max-width: 100%;
-max-height: 250px;
-clear: both;
+max-height: 450px;
+
 }
   
 .scrollmenu li {
-margin-left: 40px;
+margin-left: 25px;
 float: left;
 
 
@@ -161,7 +161,7 @@ body{
 }
   
 .scrollmenu li {
-margin-left: 50px;
+margin-left: 80px;
 float: left;
 
 
