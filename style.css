@@ -1,0 +1,155 @@
+.p1 {
+  font-size:x-large;
+
+}
+
+button{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:larger ;
+background-color: black;
+color: darkgoldenrod;
+
+
+
+
+}
+
+
+
+
+
+
+#img1 {
+
+height:600px;
+width: 60%;
+float: left;
+margin-bottom: 20px;
+
+}
+
+#img2 {
+width: 40%;
+height: 600px;
+margin-bottom: 20px;
+
+
+}
+
+
+  
+  
+  
+
+  
+body{
+  background-color: #51f9ff;
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5vw;
+  margin: 0%;
+  }
+  
+main{
+margin-left: 10px;
+
+
+
+}
+
+#heading1{
+
+margin-left: 10px;
+
+}
+.scrollmenu ul{
+
+background-color:  #333; 
+list-style-type: none;
+padding: 0px;
+overflow: hidden;
+
+
+
+
+
+}
+
+.scrollmenu a{
+display: block;
+color: white;
+text-align: center;
+padding: 15px;
+text-decoration: none;
+margin: 0px 0px 0px 0px;
+
+
+
+}
+
+.scrollmenu a:hover {
+background-color: #777;
+}
+
+.scrollmenu li {
+margin-left: 145px;
+float: left;
+
+
+
+
+}
+
+
+
+  
+@media screen and (orientation: portrait) and (max-width: 500px) {
+
+#img1{
+max-width: 60%;
+max-height: 300px;
+
+}
+#img2{
+max-width: 40%;
+max-height: 300px;
+
+}
+
+
+
+
+.p1 {
+font-size: large;
+}
+body{
+ 
+  font-size: 3vw;
+}
+
+
+ }
+
+
+
+@media screen and (orientation: landscape) and (min-width: 600px) and (max-width: 1000px) {
+
+#img1{
+max-width: 60%;
+max-height: 500px;
+}
+
+
+#img2{
+max-width: 40%;
+max-height: 500px;
+}
+
+
+body{
+ 
+  font-size: 2vw;
+}
+
+}
+
