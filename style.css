@@ -107,12 +107,21 @@ float: left;
 
 #img1{
 max-width: 60%;
-max-height: 300px;
+max-height: 250px;
 
 }
 #img2{
 max-width: 40%;
-max-height: 300px;
+max-height: 250px;
+
+}
+  
+.scrollmenu li {
+margin-left: 0%;
+float: left;
+
+
+
 
 }
 
@@ -149,6 +158,15 @@ max-height: 500px;
 body{
  
   font-size: 2vw;
+}
+  
+.scrollmenu li {
+margin-left: 10px;
+float: left;
+
+
+
+
 }
 
 }
